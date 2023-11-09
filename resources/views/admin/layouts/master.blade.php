@@ -114,9 +114,7 @@
 
              <!-- Nav item -->
              <li class="nav-item">
-                 <a class="nav-link" href="#!"
-                     data-bs-toggle="collapse" data-bs-target="#navDashboard" aria-expanded="false"
-                     aria-controls="navDashboard">
+                 <a class="nav-link" href="#!">
                      <i data-feather="home" class="nav-icon me-2 icon-xxs" >
                      </i> Dashboard
                  </a>
@@ -142,9 +140,7 @@
 
              <!-- Nav item -->
              <li class="nav-item">
-                 <a class="nav-link collapsed " href="#!"
-                     data-bs-toggle="collapse" data-bs-target="#navEmail" aria-expanded="false"
-                     aria-controls="navEmail">
+                 <a class="nav-link collapsed " href="#!">
                      <i data-feather="mail" class="nav-icon me-2 icon-xxs" >
                      </i> Jadwal Ekskul
                  </a>
@@ -156,18 +152,14 @@
 
              <!-- Nav item -->
              <li class="nav-item">
-                 <a class="nav-link has-arrow  collapsed " href="#!"
-                     data-bs-toggle="collapse" data-bs-target="#navKanban" aria-expanded="false"
-                     aria-controls="navKanban">
+                 <a class="nav-link has-arrow  collapsed " href="#!">
                      <i data-feather="layout" class="nav-icon me-2 icon-xxs" >
                      </i> Presensi
                  </a>
              </li>
 
              <li class="nav-item">
-                <a class="nav-link has-arrow  collapsed " href="#!"
-                    data-bs-toggle="collapse" data-bs-target="#navKanban" aria-expanded="false"
-                    aria-controls="navKanban">
+                <a class="nav-link has-arrow  collapsed " href="#!">
                     <i data-feather="layout" class="nav-icon me-2 icon-xxs" >
                     </i> Nilai
                 </a>

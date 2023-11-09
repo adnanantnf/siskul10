@@ -5,7 +5,7 @@
 <div class="h-100" data-simplebar>
     <!-- Brand logo -->
     <a class="navbar-brand" href="index.html">
-        <img src="assets/images/brand/logo/logo-2.svg" alt="dash ui - bootstrap 5 admin dashboard template">
+        <img src="{{ asset('template/page/assets/images/brand/logo/logo-2.svg') }}" alt="dash ui - bootstrap 5 admin dashboard template">
     </a>
     <!-- Navbar nav -->
     <ul class="navbar-nav flex-column" id="sideNavbar">
@@ -23,51 +23,31 @@
                 data-bs-parent="#sideNavbar">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link "
-                            href="pages/dashboard-analytics.html">
-                            Analytics </a>
+                        <a class="nav-link" href="pages/dashboard-analytics.html">Analytics </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  active "
-                            href="index.html">
-                            Project </a>
+                        <a class="nav-link  active "href="index.html">Project </a>
                     </li>
 
 
                     <li class="nav-item">
-                        <a class="nav-link has-arrow   "
-                            href="pages/dashboard-ecommerce.html">
-                            Ecommerce
-                        </a>
+                        <a class="nav-link has-arrow " href="pages/dashboard-ecommerce.html">Ecommerce</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link has-arrow " href="pages/dashboard-crm.html">CRM</a>
 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link has-arrow   "
-                            href="pages/dashboard-crm.html">
-                            CRM
-                        </a>
-
-
-
-                    </li>
-                    <li class="nav-item">
-                       <a class="nav-link has-arrow   "
-                           href="pages/dashboard-finance.html">
-                           Finance
-                       </a>
+                       <a class="nav-link has-arrow " href="pages/dashboard-finance.html">Finance</a>
 
                    </li>
                     <li class="nav-item">
-                       <a class="nav-link has-arrow   "
-                           href="pages/dashboard-blog.html">
-                           Blog
-                       </a>
+                       <a class="nav-link has-arrow " href="pages/dashboard-blog.html">Blog</a>
 
-                   </li>
+                    </li>
 
-
-
-                </ul>
+                    </ul>
             </div>
 
         </li>

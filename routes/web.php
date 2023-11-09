@@ -14,17 +14,29 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landingpage.home',[
+        "title"=>"Beranda"
+    ]);
+});
+
+Route::get('/tentang', function () {
+    return view('landingpage.about',[
+        "title"=>"Tentang"
+    ]);
+});
+
+Route::get('/ekstrakulikuler', function () {
+    return view('landingpage.services',[
+        "title"=>"Ekstrakulikuler"
+    ]);
+});
+
+Route::get('/prestasi', function () {
+    return view('landingpage.project',[
+        "title"=>"Prestasi"
+    ]);
 });
 
 Route::get('/admin/dashboard', function () {
     return view('admin.layouts.master');
-});
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/', function () {
-    return view('welcome');
 });
