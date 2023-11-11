@@ -122,72 +122,7 @@
                             <!-- Page header -->
                             <div class="d-flex justify-content-between align-items-center mb-5">
                                 <div class="mb-2 mb-lg-0">
-                                    <h2 class="mb-0  text-white">Dashboard Admin</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-6 col-md-12 col-12 mb-5">
-                            <!-- card -->
-                            <div class="card h-100 card-lift">
-                                <!-- card body -->
-                                <div class="card-body">
-                                    <!-- heading -->
-                                    <div class="d-flex justify-content-between align-items-center mb-3">
-                                        <div>
-                                            <h4 class="mb-0">Siswa</h4>
-                                        </div>
-                                        <div class="icon-shape icon-md bg-primary-soft text-primary rounded-2">
-                                            <i  data-feather="briefcase" height="20" width="20"></i>
-                                        </div>
-                                    </div>
-                                    <!-- project number -->
-                                    <div class="lh-1">
-                                        <h2 class=" mb-1 fw-bold">18</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-12 col-12 mb-5">
-                            <!-- card -->
-                            <div class="card h-100 card-lift">
-                                <!-- card body -->
-                                <div class="card-body">
-                                    <!-- heading -->
-                                    <div class="d-flex justify-content-between align-items-center mb-3">
-                                        <div>
-                                            <h4 class="mb-0">Pembimbing</h4>
-                                        </div>
-                                        <div class="icon-shape icon-md bg-primary-soft text-primary rounded-2">
-                      <i  data-feather="list" height="20" width="20"></i>
-                                        </div>
-                                    </div>
-                                    <!-- project number -->
-                                    <div class="lh-1">
-                                        <h2 class="  mb-1 fw-bold">132</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-12 col-12 mb-5">
-                            <!-- card -->
-                            <div class="card h-100 card-lift">
-                                <!-- card body -->
-                                <div class="card-body">
-                                    <!-- heading -->
-                                    <div class="d-flex justify-content-between align-items-center mb-3">
-                                        <div>
-                                            <h4 class="mb-0">Ekstrakulikuler</h4>
-                                        </div>
-                                        <div class="icon-shape icon-md bg-primary-soft text-primary rounded-2">
-                      <i  data-feather="users" height="20" width="20"></i>
-                                        </div>
-                                    </div>
-                                    <!-- project number -->
-                                    <div class="lh-1">
-                                        <h2 class="  mb-1 fw-bold">12</h2>
-                                    </div>
+                                    <h2 class="mb-0  text-white">Laporan Kegiatan</h2>
                                 </div>
                             </div>
                         </div>
@@ -199,10 +134,7 @@
                             <div class="card">
                                 <!-- card header  -->
                                 <div class="card-header ">
-                                    <h3 class="mb-0">Ekstrakulikuler</h3>
-                                    <div class="d-flex justify-content-end">
-                                        <button type="button" a href=""class="btn btn-primary">Tambah</button>
-                                    </div>
+                                    <h4 class="mb-0">Ekstrakulikuler</h4>
 
                                 </div>
                                 <!-- table  -->
@@ -231,11 +163,6 @@
                                             <!-- Tambahkan baris tabel sesuai kebutuhan -->
                                         </tbody>
                                     </table>
-                            </div>
-                                <!-- card footer  -->
-                                <div class="card-footer text-center">
-                                    <a href="#!">
-                                         <!-- right alignment -->
                                     <nav aria-label="Page navigation example">
                                         <ul class="pagination justify-content-end">
                                         <li class="page-item disabled">
@@ -249,11 +176,20 @@
                                         </li>
                                         </ul>
                                     </nav>
-                                    </a>
+                                </div>
+
 
                                 </div>
                             </div>
+                                <!-- card footer  -->
+                                <div class="card-footer text-center">
 
+                                    <a href="#!">
+
+                                         <!-- right alignment -->
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -269,7 +205,10 @@
 <script src="{{ asset('template/dashuipro/assets/libs/feather-icons/dist/feather.min.js') }}"></script>
 <script src="{{ asset('template/dashuipro/assets/libs/simplebar/dist/simplebar.min.js') }}"></script>
 
-
+<!-- Sertakan script Bootstrap JavaScript dan jQuery jika diperlukan -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 <!-- Theme JS -->

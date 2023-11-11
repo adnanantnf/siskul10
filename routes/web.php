@@ -38,5 +38,13 @@ Route::get('/prestasi', function () {
 });
 
 Route::get('/admin/dashboard', function () {
-    return view('admin.layouts.master');
+    return view('admin.layouts.master',[
+        "title"=>"dashboard"
+    ]);
+});
+
+Route::get('/admin/laporan', function () {
+    return view('admin.layouts.laporan',[
+        "title"=>"laporan"
+    ]);
 });
