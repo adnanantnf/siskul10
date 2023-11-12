@@ -198,10 +198,10 @@
                             <!-- card  -->
                             <div class="card">
                                 <!-- card header  -->
-                                <div class="card-header ">
-                                    <h3 class="mb-0">Ekstrakulikuler</h3>
-                                    <div class="d-flex justify-content-end">
-                                        <button type="button" a href=""class="btn btn-primary">Tambah</button>
+                                <div class="card-header">
+                                    <h3 class="card-tittle">Ekstrakulikuler</h3>
+                                    <div class="card-tools">
+                                        <button type="button" a href="" class="btn btn-primary">Tambah</button>
                                     </div>
 
                                 </div>

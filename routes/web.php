@@ -48,3 +48,9 @@ Route::get('/admin/laporan', function () {
         "title"=>"laporan"
     ]);
 });
+
+Route::get('/admin/presensi', function () {
+    return view('admin.layouts.presensi',[
+        "title"=>"presensi"
+    ]);
+});

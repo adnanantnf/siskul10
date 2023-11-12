@@ -3,7 +3,7 @@
 <div class="navbar-vertical navbar nav-dashboard">
     <div class="h-100" data-simplebar>
         <!-- Brand logo -->
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="/admin/dashboard">
             <img src="{{ asset('template/dashuipro/assets/images/brand/logo/logo-2.svg') }}" alt="dash ui - bootstrap 5 admin dashboard template">
         </a>
         <!-- Navbar nav -->
@@ -49,7 +49,7 @@
 
             <!-- Nav item -->
             <li class="nav-item">
-                <a class="nav-link has-arrow  collapsed " href="#!">
+                <a class="nav-link " href="/admin/presensi">
                     <i data-feather="layout" class="nav-icon me-2 icon-xxs" >
                     </i> Presensi
                 </a>

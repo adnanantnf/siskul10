@@ -134,7 +134,7 @@
                             <div class="card">
                                 <!-- card header  -->
                                 <div class="card-header ">
-                                    <h4 class="mb-0">Ekstrakulikuler</h4>
+                                    <h4 class="mb-0">Laporan Kegiatan</h4>
 
                                 </div>
                                 <!-- table  -->
