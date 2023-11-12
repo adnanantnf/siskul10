@@ -214,6 +214,7 @@
                                                 <th style="width: 50px;">No.</th>
                                                 <th>Nama</th>
                                                 <th>Prodi</th>
+                                                <th>Ketua Ekskul</th>
                                                 </div>
                                             </tr>
                                         </thead>
@@ -222,11 +223,13 @@
                                                 <td style="width: 50px;">1</td>
                                                 <td>John Doe</td>
                                                 <td>Teknik Informatika</td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                                 <td style="width: 50px;">2</td>
                                                 <td>Jane Doe</td>
                                                 <td>Sistem Informasi</td>
+                                                <td></td>
                                             </tr>
                                             <!-- Tambahkan baris tabel sesuai kebutuhan -->
                                         </tbody>
